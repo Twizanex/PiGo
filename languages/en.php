@@ -30,7 +30,7 @@ $english = array(
 
 	'loggedinrequired' => "You must be logged in to view that page.",
 	'adminrequired' => "You must be an administrator to view that page.",
-	'membershiprequired' => "You must be a member of this group to view that page.",
+	'membershiprequired' => "You must be a member of this class to view that page.",
 
 
 /**
@@ -50,11 +50,11 @@ $english = array(
 	'InstallationException:CannotLoadSettings' => 'Elgg could not load the settings file. It does not exist or there is a file permissions issue.',
 
 	'SecurityException:Codeblock' => "Denied access to execute privileged code block",
-	'DatabaseException:WrongCredentials' => "Elgg couldn't connect to the database using the given credentials. Check the settings file.",
-	'DatabaseException:NoConnect' => "Elgg couldn't select the database '%s', please check that the database is created and you have access to it.",
+	'DatabaseException:WrongCredentials' => "PiGo couldn't connect to the database using the given credentials. Check the settings file.",
+	'DatabaseException:NoConnect' => "PiGO couldn't select the database '%s', please check that the database is created and you have access to it.",
 	'SecurityException:FunctionDenied' => "Access to privileged function '%s' is denied.",
 	'DatabaseException:DBSetupIssues' => "There were a number of issues: ",
-	'DatabaseException:ScriptNotFound' => "Elgg couldn't find the requested database script at %s.",
+	'DatabaseException:ScriptNotFound' => "PiGo couldn't find the requested database script at %s.",
 	'DatabaseException:InvalidQuery' => "Invalid query",
 	'DatabaseException:InvalidDBLink' => "Connection to database was lost.",
 
@@ -97,7 +97,7 @@ $english = array(
 	'ElggPlugin:Dependencies:Provides' => 'Provides',
 	'ElggPlugin:Dependencies:Priority' => 'Priority',
 
-	'ElggPlugin:Dependencies:Elgg' => 'Elgg version',
+	'ElggPlugin:Dependencies:Elgg' => 'PiGo version',
 	'ElggPlugin:Dependencies:PhpExtension' => 'PHP extension: %s',
 	'ElggPlugin:Dependencies:PhpIni' => 'PHP ini setting: %s',
 	'ElggPlugin:Dependencies:Plugin' => 'Plugin: %s',
