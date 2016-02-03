@@ -9,7 +9,7 @@ $group = elgg_get_page_owner_entity();
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-        <link rel="stylesheet" type="text/css" href="http://172.22.1.124/12944/mod/tweet_me/test/css/style4.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo elgg_get_site_url(); ?>mod/tweet_me/test/css/style4.css" />
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
     </head>
     <body>
@@ -118,46 +118,4 @@ if ($group->blog_enable == "yes") {
 
 
 <?php
-///**
-// * Group blog module
-// */
-//
-//$group = elgg_get_page_owner_entity();
-//
-//if ($group->blog_enable == "no") {
-//	return true;
-//}
-//
-//$all_link = elgg_view('output/url', array(
-//	'href' => "blog/group/$group->guid/all",
-//	'text' => elgg_echo('link:view:all'),
-//	'is_trusted' => true,
-//));
-//
-//elgg_push_context('widgets');
-//$options = array(
-//	'type' => 'object',
-//	'subtype' => 'blog',
-//	'container_guid' => elgg_get_page_owner_guid(),
-//	'metadata_name_value_pairs' => array('name' => 'status', 'value' => 'published'),
-//	'limit' => 2,
-//	'full_view' => false,
-//	'pagination' => false,
-//);
-//$content = elgg_list_entities_from_metadata($options);
-//elgg_pop_context();
-//
-//if (!$content) {
-//	$content = '<p>' . elgg_echo('blog:none') . '</p>';
-//}
-//
-//
-//
-//
-//	echo elgg_view('groups/profile/module', array(
-//	'title' => elgg_echo('blog:group'),
-//	'content' => $content,
-//	'all_link' => $all_link,
-//	
-//));
-//	
+
