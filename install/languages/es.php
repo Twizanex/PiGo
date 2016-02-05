@@ -2,12 +2,12 @@
 /**
  * Installer English Language
  *
- * @package PiGoLanguage
+ * @package ElggLanguage
  * @subpackage Installer
  */
 
 $english = array(
-	'install:title' => 'PiGo LMS Premium System Install',
+	'install:title' => 'PiGo Snow Draco Learning Management System Install',
 	'install:welcome' => 'Welcome',
 	'install:requirements' => 'Requirements check',
 	'install:database' => 'Database installation',
@@ -18,9 +18,9 @@ $english = array(
 	'install:next' => 'Next',
 	'install:refresh' => 'Refresh',
 
-	'install:welcome:instructions' => "Installing PiGo LMS Premium has 6 simple steps and reading this welcome is the first one!
+	'install:welcome:instructions' => "Installing PiGo Snow Draco has 6 simple steps and reading this welcome is the first one!
 
-If you haven't already, read through the installation instructions included with PiGo LMS Premium(or click the instructions link at the bottom of the page).
+If you haven't already, read through the installation instructions included with PiGo Snow Draco(or click the instructions link at the bottom of the page).
 
 If you are ready to proceed, click the Next button.",
 	'install:requirements:instructions:success' => "Your server passed the requirement checks.",
@@ -38,14 +38,14 @@ If you are ready to proceed, click the Next button.",
 
 		2. Copy the file htaccess_dist to .htaccess',
 
-	'install:check:php:version' => 'PiGo LMS Premium requires PHP %s or above. This server is using version %s.',
-	'install:check:php:extension' => 'PiGo LMS Premium requires the PHP extension %s.',
+	'install:check:php:version' => 'PiGo Snow Draco requires PHP %s or above. This server is using version %s.',
+	'install:check:php:extension' => 'PiGo Snow Draco requires the PHP extension %s.',
 	'install:check:php:extension:recommend' => 'It is recommended that the PHP extension %s is installed.',
-	'install:check:php:open_basedir' => 'The open_basedir PHP directive may prevent PiGo LMS Premium from saving files to its data directory.',
-	'install:check:php:safe_mode' => 'Running PHP in safe mode is not recommened and may cause problems with PiGo LMS Premium.',
-	'install:check:php:arg_separator' => 'arg_separator.output must be & for PiGo LMS Premium to work and your server\'s value is %s',
+	'install:check:php:open_basedir' => 'The open_basedir PHP directive may prevent PiGo Snow Draco from saving files to its data directory.',
+	'install:check:php:safe_mode' => 'Running PHP in safe mode is not recommened and may cause problems with PiGo Snow Draco.',
+	'install:check:php:arg_separator' => 'arg_separator.output must be & for PiGo Snow Draco to work and your server\'s value is %s',
 	'install:check:php:register_globals' => 'Register globals must be turned off.',
-	'install:check:php:session.auto_start' => "session.auto_start must be off for PiGo LMS Premium to work. Either change the configuration of your server or add this directive to PiGo LMS Premium's .htaccess file.",
+	'install:check:php:session.auto_start' => "session.auto_start must be off for PiGo Snow Draco to work. Either change the configuration of your server or add this directive to PiGo Snow Draco's .htaccess file.",
 
 	'install:check:enginedir' => 'Your web server does not have permission to create the settings.php file in the engine directory. You have two choices:
 
@@ -54,12 +54,12 @@ If you are ready to proceed, click the Next button.",
 		2. Copy the file settings.example.php to settings.php and follow the instructions in it for setting your database parameters.',
 	'install:check:readsettings' => 'A settings file exists in the engine directory, but the web server cannot read it. You can delete the file or change the read permissions on it.',
 
-	'install:check:php:success' => "Your server's PHP satisfies all of PiGo LMS Premium's requirements.",
+	'install:check:php:success' => "Your server's PHP satisfies all of PiGo Snow Draco's requirements.",
 	'install:check:rewrite:success' => 'The test of the rewrite rules was successful.',
 	'install:check:database' => 'The database requirements are checked when PiGo Snow Draco loads its database.',
 
-	'install:database:instructions' => "If you haven't already created a database for PiGo LMS Premium, do that now. Then fill in the values below to initialize the PiGo LMS Premium database.",
-	'install:database:error' => 'There was an error creating the PiGo LMS Premium database and installation cannot continue. Review the message above and correct any problems. If you need more help, visit the Install troubleshooting link below or post to the PiGo LMS Premium community forums.',
+	'install:database:instructions' => "If you haven't already created a database for PiGo Snow Draco, do that now. Then fill in the values below to initialize the PiGo Snow Draco database.",
+	'install:database:error' => 'There was an error creating the PiGo Snow Draco database and installation cannot continue. Review the message above and correct any problems. If you need more help, visit the Install troubleshooting link below or post to the PiGo Snow Draco community forums.',
 
 	'install:database:label:dbuser' =>  'Database Username',
 	'install:database:label:dbpassword' => 'Database Password',
@@ -69,27 +69,27 @@ If you are ready to proceed, click the Next button.",
 
 	'install:database:help:dbuser' => 'User that has full privileges to the MySQL database that you created for PiGo Snow Draco',
 	'install:database:help:dbpassword' => 'Password for the above database user account',
-	'install:database:help:dbname' => 'Name of the PiGo LMS Premium database',
+	'install:database:help:dbname' => 'Name of the PiGo Snow Draco database',
 	'install:database:help:dbhost' => 'Hostname of the MySQL server (usually localhost)',
-	'install:database:help:dbprefix' => "The prefix given to all of PiGo LMS Premium's tables (usually elgg_)",
+	'install:database:help:dbprefix' => "The prefix given to all of PiGo Snow Draco's tables (usually elgg_)",
 
-	'install:settings:instructions' => 'We need some information about the site as we configure PiGo LMS Premium. If you haven\'t <a href="http://www.pigolms.com/support-" target="_blank">created a data directory</a> for PiGo LMS Premium, you need to do so now.',
+	'install:settings:instructions' => 'We need some information about the site as we configure Elgg. If you haven\'t <a href="http://docs.elgg.org/wiki/Data_directory" target="_blank">created a data directory</a> for Elgg, you need to do so now.',
 
-	'install:settings:label:sitename' => 'Enter the name of your institution',
-	'install:settings:label:siteemail' => 'Enter the Email Address',
-	'install:settings:label:wwwroot' => 'Enter the Site URL',
-	'install:settings:label:path' => 'PiGo LMS Premium Install Directory',
+	'install:settings:label:sitename' => 'Site Name',
+	'install:settings:label:siteemail' => 'Site Email Address',
+	'install:settings:label:wwwroot' => 'Site URL',
+	'install:settings:label:path' => 'Elgg Install Directory',
 	'install:settings:label:dataroot' => 'Data Directory',
-	'install:settings:label:language' => 'Choose the language of the site',
+	'install:settings:label:language' => 'Site Language',
 	'install:settings:label:siteaccess' => 'Default Site Access',
-	'install:label:combo:dataroot' => 'PiGo LMS Premium creates data directory',
+	'install:label:combo:dataroot' => 'Elgg creates data directory',
 
-	'install:settings:help:sitename' => 'The name of your new virtual learning site',
-	'install:settings:help:siteemail' => 'Email address used by PiGo LMS Premium for communication with users',
-	'install:settings:help:wwwroot' => 'The address of the site (PiGo usually guesses this correctly)',
-	'install:settings:help:path' => 'The directory where you installe PiGo LMS (PiGo usually guesses this correctly)',
-	'install:settings:help:dataroot' => 'The directory that you created for PiGo LMS Premium to save files (the permissions on this directory are checked when you click Next). It must be an absolute path.',
-	'install:settings:help:dataroot:apache' => 'You have the option of PiGo creating the data directory or entering the directory that you already created for storing user files (the permissions on this directory are checked when you click Next)',
+	'install:settings:help:sitename' => 'The name of your new Elgg site',
+	'install:settings:help:siteemail' => 'Email address used by Elgg for communication with users',
+	'install:settings:help:wwwroot' => 'The address of the site (Elgg usually guesses this correctly)',
+	'install:settings:help:path' => 'The directory where you put the Elgg code (Elgg usually guesses this correctly)',
+	'install:settings:help:dataroot' => 'The directory that you created for Elgg to save files (the permissions on this directory are checked when you click Next). It must be an absolute path.',
+	'install:settings:help:dataroot:apache' => 'You have the option of Elgg creating the data directory or entering the directory that you already created for storing user files (the permissions on this directory are checked when you click Next)',
 	'install:settings:help:language' => 'The default language for the site',
 	'install:settings:help:siteaccess' => 'The default access level for new user created content',
 
@@ -112,7 +112,7 @@ If you are ready to proceed, click the Next button.",
 	'install:admin:password:tooshort' => 'Your password was too short',
 	'install:admin:cannot_create' => 'Unable to create an admin account.',
 
-	'install:complete:instructions' => 'PiGo LMS Premium is now ready to be used. Click the button below to be taken to your site.',
+	'install:complete:instructions' => 'Your Elgg site is now ready to be used. Click the button below to be taken to your site.',
 	'install:complete:gotosite' => 'Go to site',
 
 	'InstallationException:UnknownStep' => '%s is an unknown installation step.',
@@ -128,7 +128,7 @@ If you are ready to proceed, click the Next button.",
 	'install:error:oldmysql' => 'MySQL must be version 5.0 or above. Your server is using %s.',
 	'install:error:nodatabase' => 'Unable to use database %s. It may not exist.',
 	'install:error:cannotloadtables' => 'Cannot load the database tables',
-	'install:error:tables_exist' => 'There are already PiGo LMS Premium tables in the database. You need to either drop those tables or restart the installer and we will attempt to use them. To restart the installer, remove \'?step=database\' from the URL in your browser\'s address bar and press Enter.',
+	'install:error:tables_exist' => 'There are already Elgg tables in the database. You need to either drop those tables or restart the installer and we will attempt to use them. To restart the installer, remove \'?step=database\' from the URL in your browser\'s address bar and press Enter.',
 	'install:error:readsettingsphp' => 'Unable to read engine/settings.example.php',
 	'install:error:writesettingphp' => 'Unable to write engine/settings.php',
 	'install:error:requiredfield' => '%s is required',
