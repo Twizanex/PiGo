@@ -5,24 +5,24 @@
  */
 
 $english = array(
-	'blog' => 'Blogs',
-	'blog:blogs' => 'Blogs',
+	'blog' => 'News',
+	'blog:blogs' => 'News',
 	'blog:revisions' => 'Revisions',
 	'blog:archives' => 'Archives',
-	'blog:blog' => 'Blog',
-	'item:object:blog' => 'Blogs',
+	'blog:blog' => 'News',
+	'item:object:blog' => 'News',
 
-	'blog:title:user_blogs' => '%s\'s blogs',
-	'blog:title:all_blogs' => 'All site blogs',
-	'blog:title:friends' => 'Friends\' blogs',
+	'blog:title:user_blogs' => '%s\'s news',
+	'blog:title:all_blogs' => 'All site news',
+	'blog:title:friends' => 'Contacts\' news',
 
-	'blog:group' => 'Group blog',
-	'blog:enableblog' => 'Enable group blog',
-	'blog:write' => 'Write a blog post',
+	'blog:group' => 'Class News',
+	'blog:enableblog' => 'Enable groups\'s news and announcements',
+	'blog:write' => 'Write a news or announcement',
 
 	// Editing
-	'blog:add' => 'Add blog post',
-	'blog:edit' => 'Edit blog post',
+	'blog:add' => 'Add news or announcement',
+	'blog:edit' => 'Edit news or announcement',
 	'blog:excerpt' => 'Excerpt',
 	'blog:body' => 'Body',
 	'blog:save_status' => 'Last saved: ',
@@ -38,41 +38,41 @@ $english = array(
 	'blog:auto_saved_revision' => 'Auto Saved Revision',
 
 	// messages
-	'blog:message:saved' => 'Blog post saved.',
-	'blog:error:cannot_save' => 'Cannot save blog post.',
-	'blog:error:cannot_write_to_container' => 'Insufficient access to save blog to group.',
+	'blog:message:saved' => 'News or announcement saved.',
+	'blog:error:cannot_save' => 'Cannot save news or announcement.',
+	'blog:error:cannot_write_to_container' => 'Insufficient access to save announcement to class.',
 	'blog:messages:warning:draft' => 'There is an unsaved draft of this post!',
 	'blog:edit_revision_notice' => '(Old version)',
-	'blog:message:deleted_post' => 'Blog post deleted.',
-	'blog:error:cannot_delete_post' => 'Cannot delete blog post.',
-	'blog:none' => 'No blog posts',
-	'blog:error:missing:title' => 'Please enter a blog title!',
-	'blog:error:missing:description' => 'Please enter the body of your blog!',
+	'blog:message:deleted_post' => 'News or announcement deleted.',
+	'blog:error:cannot_delete_post' => 'Cannot delete news or announcement.',
+	'blog:none' => 'No news or announcements',
+	'blog:error:missing:title' => 'Please enter a title!',
+	'blog:error:missing:description' => 'Please enter the body of your news or announcement!',
 	'blog:error:cannot_edit_post' => 'This post may not exist or you may not have permissions to edit it.',
 	'blog:error:revision_not_found' => 'Cannot find this revision.',
 
 	// river
-	'river:create:object:blog' => '%s published a blog post %s',
-	'river:comment:object:blog' => '%s commented on the blog %s',
+	'river:create:object:blog' => '%s published a post %s',
+	'river:comment:object:blog' => '%s commented on the post %s',
 
 	// notifications
-	'blog:newpost' => 'A new blog post',
+	'blog:newpost' => 'A new announcement post',
 	'blog:notification' =>
 '
-%s made a new blog post.
+%s made a new announcement.
 
 %s
 %s
 
-View and comment on the new blog post:
+View and comment on the new announcement:
 %s
 ',
 
 	// widget
-	'blog:widget:description' => 'Display your latest blog posts',
-	'blog:moreblogs' => 'More blog posts',
-	'blog:numbertodisplay' => 'Number of blog posts to display',
-	'blog:noblogs' => 'No blog posts'
+	'blog:widget:description' => 'Display your latest news or announcenments',
+	'blog:moreblogs' => 'More news or announcements',
+	'blog:numbertodisplay' => 'Number of posts to display',
+	'blog:noblogs' => 'No posts'
 );
 
 add_translation('en', $english);
