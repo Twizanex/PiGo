@@ -18,5 +18,5 @@
 		<name>file</name>
 		<version>1.8.1</version>
 	</requires>
-	<activate_on_install>true</activate_on_install>
+	<activate_on_install>false</activate_on_install>
 </plugin_manifest>

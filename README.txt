@@ -1,24 +1,13 @@
-Elgg
-Copyright (c) 2008-2013 See COPYRIGHT.txt
+PiGo LMS
+Copyright (c) 2012 - 2016 See COPYRIGHT.txt
 
-See CONTRIBUTORS.txt for development credits.
 
-Elgg is managed by the Elgg Foundation, a nonprofit organization that was
-founded to govern, protect, and promote the Elgg open source social network
-engine.  The Foundation aims to provide a stable, commercially and
-individually independent organization that operates in the best interest of Elgg
-as an open source project.
-
-The project site can be found at http://elgg.org/
+PiGo Learning Managememt System is a project based on the elgg engine.
 
 The Elgg project was started in 2004 by:
 Ben Werdmuller <ben@benwerd.com, http://benwerd.com> and
 Dave Tosh <davidgtosh@gmail.com>
 
-Elgg is released under the GNU General Public License (GPL) Version 2 and the
-Massachusetts Institute of Technology (MIT) License. See LICENSE.txt 
-in the root of the package you downloaded.
+Elgg is released under the GNU General Public License (GPL)
 
-For installation instructions, see INSTALL.txt.
-
-For upgrade instructions, see UPGRADE.txt.
+PiGo LMS is a registered trademark of SW Social Web and is released under the GNU GPL License.
