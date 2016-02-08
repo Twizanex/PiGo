@@ -5,100 +5,100 @@ $english = array(
 	// general
 	'group_tools:decline' => "Decline",
 	'group_tools:revoke' => "Revoke",
-	'group_tools:add_users' => "Add students",
+	'group_tools:add_users' => "Add users",
 	'group_tools:in' => "in",
 	'group_tools:remove' => "Remove",
 	'group_tools:clear_selection' => "Clear selection",
-	'group_tools:all_members' => "All students",
+	'group_tools:all_members' => "All members",
 	'group_tools:explain' => "Explanation",
 
-	'group_tools:default:access:group' => "Members of this class only",
+	'group_tools:default:access:group' => "Group members only",
 
 	'group_tools:joinrequest:already' => "Revoke membership request",
-	'group_tools:joinrequest:already:tooltip' => "You already requested to join this class, click here to revoke this request",
-	'group_tools:join:already:tooltip' => "You were invited to join the class so you can join right now.",
+	'group_tools:joinrequest:already:tooltip' => "You already requested to join this group, click here to revoke this request",
+	'group_tools:join:already:tooltip' => "You were invited to this group so you can join right now.",
 
 	// menu
-	'group_tools:menu:mail' => "Mail students",
+	'group_tools:menu:mail' => "Mail Members",
 	'group_tools:menu:invitations' => "Manage invitations",
 
 	// plugin settings
-	'group_tools:settings:invite:title' => "Class invitation options",
-	'group_tools:settings:management:title' => "General class options",
-	'group_tools:settings:default_access:title' => "Default class access",
+	'group_tools:settings:invite:title' => "Group invitation options",
+	'group_tools:settings:management:title' => "General group options",
+	'group_tools:settings:default_access:title' => "Default group access",
 
-	'group_tools:settings:admin_transfer' => "Allow class owner transfer",
+	'group_tools:settings:admin_transfer' => "Allow group owner transfer",
 	'group_tools:settings:admin_transfer:admin' => "Site admin only",
-	'group_tools:settings:admin_transfer:owner' => "Class owners and site admins",
+	'group_tools:settings:admin_transfer:owner' => "Group owners and site admins",
 
-	'group_tools:settings:multiple_admin' => "Allow multiple class admins",
-	'group_tools:settings:auto_suggest_groups' => "Auto suggest classrooms on the 'Suggested' class page based on profile information. Will be completed with the predefined suggested groups. Setting this to 'No' will only show the predefined suggested groups (if there are any).",
+	'group_tools:settings:multiple_admin' => "Allow multiple group admins",
+	'group_tools:settings:auto_suggest_groups' => "Auto suggest groups on the 'Suggested' groups page based on profile information. Will be completed with the predefined suggested groups. Setting this to 'No' will only show the predefined suggested groups (if there are any).",
 
-	'group_tools:settings:invite' => "Allow all users to be invited",
+	'group_tools:settings:invite' => "Allow all users to be invited (not just friends)",
 	'group_tools:settings:invite_email' => "Allow all users to be invited by e-mail address",
 	'group_tools:settings:invite_csv' => "Allow all users to be invited by CSV-file",
-	'group_tools:settings:invite_members' => "Allow class members to invite new users",
+	'group_tools:settings:invite_members' => "Allow group members to invite new users",
 	'group_tools:settings:invite_members:default_off' => "Yes, default off",
 	'group_tools:settings:invite_members:default_on' => "Yes, default on",
-	'group_tools:settings:invite_members:description' => "Class owners/admins can enable/disable this for their class",
-	'group_tools:settings:domain_based' => "Enable domain based classes",
-	'group_tools:settings:domain_based:description' => "Users can join a class based on their e-mail domain. During registration they will auto join groups based on their e-mail domain.",
+	'group_tools:settings:invite_members:description' => "Group owners/admins can enable/disable this for their group",
+	'group_tools:settings:domain_based' => "Enable domain based groups",
+	'group_tools:settings:domain_based:description' => "Users can join a group based on their e-mail domain. During registration they will auto join groups based on their e-mail domain.",
 
-	'group_tools:settings:mail' => "Allow class mail (allows teachers to send a message to all members)",
+	'group_tools:settings:mail' => "Allow group mail (allows group admins to send a message to all members)",
 
-	'group_tools:settings:listing:default' => "Default class listing tab",
-	'group_tools:settings:listing:available' => "Available class listing tabs",
+	'group_tools:settings:listing:default' => "Default group listing tab",
+	'group_tools:settings:listing:available' => "Available group listing tabs",
 
-	'group_tools:settings:default_access' => "What should be the default access for content in the classes of this site",
+	'group_tools:settings:default_access' => "What should be the default access for content in the groups of this site",
 	'group_tools:settings:default_access:disclaimer' => "<b>DISCLAIMER:</b> this will not work unless you have <a href='https://github.com/Elgg/Elgg/pull/253' target='_blank'>https://github.com/Elgg/Elgg/pull/253</a> applied to your Elgg installation.",
 
-	'group_tools:settings:search_index' => "Allow closed classes to be indexed by search engines",
-	'group_tools:settings:auto_notification' => "Automatically enable class notification when adding students",
-	'group_tools:settings:show_membership_mode' => "Show open/closed membership status on class profile and owner block",
-	'group_tools:settings:show_hidden_group_indicator' => "Show an indicator if a class is hidden",
-	'group_tools:settings:show_hidden_group_indicator:group_acl' => "Yes, if class is members only",
-	'group_tools:settings:show_hidden_group_indicator:logged_in' => "Yes, for all non public classes",
+	'group_tools:settings:search_index' => "Allow closed groups to be indexed by search engines",
+	'group_tools:settings:auto_notification' => "Automatically enable group notification on group join",
+	'group_tools:settings:show_membership_mode' => "Show open/closed membership status on group profile and owner block",
+	'group_tools:settings:show_hidden_group_indicator' => "Show an indicator if a group is hidden",
+	'group_tools:settings:show_hidden_group_indicator:group_acl' => "Yes, if group is members only",
+	'group_tools:settings:show_hidden_group_indicator:logged_in' => "Yes, for all non public groups",
 	
-	'group_tools:settings:special_states' => "Classes with a special state",
+	'group_tools:settings:special_states' => "Groups with a special state",
 	'group_tools:settings:special_states:featured' => "Featured",
-	'group_tools:settings:special_states:featured:description' => "The site administrators have chosen to feature the following classes.",
+	'group_tools:settings:special_states:featured:description' => "The site administrators have chosen to feature the following groups.",
 	'group_tools:settings:special_states:auto_join' => "Auto join",
-	'group_tools:settings:special_states:auto_join:description' => "New users will automaticly join the following classes.",
+	'group_tools:settings:special_states:auto_join:description' => "New users will automaticly join the following groups.",
 	'group_tools:settings:special_states:suggested' => "Suggested",
-	'group_tools:settings:special_states:suggested:description' => "The following classes are suggested to (new) users. It is possible to auto suggest groups, if no groups are automaticly detected or too few, the list will be appended by these groups.",
+	'group_tools:settings:special_states:suggested:description' => "The following groups are suggested to (new) users. It is possible to auto suggest groups, if no groups are automaticly detected or too few, the list will be appended by these groups.",
 
-	'group_tools:settings:fix:title' => "Fix class access problems",
-	'group_tools:settings:fix:missing' => "There are %d users who are a member of a class but don't have access to the content shared with the class.",
-	'group_tools:settings:fix:excess' => "There are %d users who have access to class content of classes where they are no longer a member off.",
-	'group_tools:settings:fix:without' => "There are %d classes without the possibility to share content with their members.",
+	'group_tools:settings:fix:title' => "Fix group access problems",
+	'group_tools:settings:fix:missing' => "There are %d users who are a member of a group but don't have access to the content shared with the group.",
+	'group_tools:settings:fix:excess' => "There are %d users who have access to group content of groups where they are no longer a member off.",
+	'group_tools:settings:fix:without' => "There are %d groups without the possibility to share content with their members.",
 	'group_tools:settings:fix:all:description' => "Fix all off the above problems at once.",
 	'group_tools:settings:fix_it' => "Fix this",
 	'group_tools:settings:fix:all' => "Fix all problems",
-	'group_tools:settings:fix:nothing' => "Nothing is wrong with the classes on your site!",
+	'group_tools:settings:fix:nothing' => "Nothing is wrong with the groups on your site!",
 
 	// group invite message
 	'group_tools:groups:invite:body' => "Hi %s,
 
-%s invited you to join the '%s' class.
+%s invited you to join the '%s' group.
 %s
 
 Click below to view your invitations:
 %s",
 
 	// group add message
-	'group_tools:groups:invite:add:subject' => "You've been added to the class %s",
+	'group_tools:groups:invite:add:subject' => "You've been added to the group %s",
 	'group_tools:groups:invite:add:body' => "Hi %s,
 
-%s added you to the class %s.
+%s added you to the group %s.
 %s
 
-To view the class click on this link
+To view the group click on this link
 %s",
 	// group invite by email
-	'group_tools:groups:invite:email:subject' => "You've been invited for the class %s",
+	'group_tools:groups:invite:email:subject' => "You've been invited for the group %s",
 	'group_tools:groups:invite:email:body' => "Hi,
 
-%s invited you to join the class %s on %s.
+%s invited you to join the group %s on %s.
 %s
 
 If you don't have an account on %s please register here
@@ -107,85 +107,85 @@ If you don't have an account on %s please register here
 If you already have an account or after you registered, please click on the following link to accept the invitation
 %s
 
-You can also go to All site class -> Class invitations and enter the following code:
+You can also go to All site groups -> Group invitations and enter the following code:
 %s",
 	// group transfer notification
-	'group_tools:notify:transfer:subject' => "Administration of the class %s has been appointed to you",
+	'group_tools:notify:transfer:subject' => "Administration of the group %s has been appointed to you",
 	'group_tools:notify:transfer:message' => "Hi %s,
 
-%s has appointed you as the new administrator of the class %s.
+%s has appointed you as the new administrator of the group %s.
 
-To visit the class page please click on the following link:
+To visit the group please click on the following link:
 %s",
 
 	// group edit tabbed
-	'group_tools:group:edit:profile' => " Class profile / tools",
+	'group_tools:group:edit:profile' => "Group profile / tools",
 	'group_tools:group:edit:other' => "Other options",
 
 	// admin transfer - form
-	'group_tools:admin_transfer:title' => "Transfer the ownership of this class",
-	'group_tools:admin_transfer:transfer' => "Transfer class ownership to",
+	'group_tools:admin_transfer:title' => "Transfer the ownership of this group",
+	'group_tools:admin_transfer:transfer' => "Transfer group ownership to",
 	'group_tools:admin_transfer:myself' => "Myself",
 	'group_tools:admin_transfer:submit' => "Transfer",
 	'group_tools:admin_transfer:no_users' => "No members or friends to transfer ownership to.",
 	'group_tools:admin_transfer:confirm' => "Are you sure you wish to transfer ownership?",
 
 	// special states form
-	'group_tools:special_states:title' => "Class special states",
-	'group_tools:special_states:description' => "A class can have several special states, here is an overview of the special states and their current value.",
-	'group_tools:special_states:featured' => "Is this class featured",
-	'group_tools:special_states:auto_join' => "Will users automaticly join this class",
-	'group_tools:special_states:auto_join:fix' => "To make all site members a member of this class, please %sclick here%s.",
-	'group_tools:special_states:suggested' => "Is this class suggested to (new) users",
+	'group_tools:special_states:title' => "Group special states",
+	'group_tools:special_states:description' => "A group can have several special states, here is an overview of the special states and their current value.",
+	'group_tools:special_states:featured' => "Is this group featured",
+	'group_tools:special_states:auto_join' => "Will users automaticly join this group",
+	'group_tools:special_states:auto_join:fix' => "To make all site members a member of this group, please %sclick here%s.",
+	'group_tools:special_states:suggested' => "Is this group suggested to (new) users",
 	
 	// group admins
-	'group_tools:multiple_admin:group_admins' => "Class admins",
-	'group_tools:multiple_admin:profile_actions:remove' => "Remove class admin",
-	'group_tools:multiple_admin:profile_actions:add' => "Add class admin",
+	'group_tools:multiple_admin:group_admins' => "Group admins",
+	'group_tools:multiple_admin:profile_actions:remove' => "Remove group admin",
+	'group_tools:multiple_admin:profile_actions:add' => "Add group admin",
 
-	'group_tools:multiple_admin:group_tool_option' => "Enable class admins to assign other class admins",
+	'group_tools:multiple_admin:group_tool_option' => "Enable group admins to assign other group admins",
 
 	// cleanup options
-	'group_tools:cleanup:title' => "Class sidebar cleanup",
-	'group_tools:cleanup:description' => "Cleanup the sidebar of the class. This will have no effect for the class admins.",
+	'group_tools:cleanup:title' => "Group sidebar cleanup",
+	'group_tools:cleanup:description' => "Cleanup the sidebar of the group. This will have no effect for the group admins.",
 	'group_tools:cleanup:owner_block' => "Limit the owner block",
 	'group_tools:cleanup:owner_block:explain' => "The owner block can be found at the top of the sidebar, some extra links can be posted in this area (example: RSS links).",
-	'group_tools:cleanup:actions' => "Hide the Join Class/Request membership button",
-	'group_tools:cleanup:actions:explain' => "Depending on your class setting, users can directly join the class or request membership.",
+	'group_tools:cleanup:actions' => "Hide the Join group/Request membership button",
+	'group_tools:cleanup:actions:explain' => "Depending on your group setting, users can directly join the group or request membership.",
 	'group_tools:cleanup:menu' => "Hide side menu items",
-	'group_tools:cleanup:menu:explain' => "Hide the menu links to the different class tools. The users will only be able to get access to the class tools by using the class widgets.",
-	'group_tools:cleanup:members' => "Hide the class members",
-	'group_tools:cleanup:members:explain' => "On the class profile page a list of the class members can be found at the highlighted section. You can choose to hide this list.",
-	'group_tools:cleanup:search' => "Hide the search in class",
-	'group_tools:cleanup:search:explain' => "On the class profile page a search box is available. You can choose to hide this.",
-	'group_tools:cleanup:featured' => "Show featured class in the sidebar",
-	'group_tools:cleanup:featured:explain' => "You can choose to show a list of featured class at the highlighted section on the class profile page",
-	'group_tools:cleanup:featured_sorting' => "How to sort featured classes",
+	'group_tools:cleanup:menu:explain' => "Hide the menu links to the different group tools. The users will only be able to get access to the group tools by using the group widgets.",
+	'group_tools:cleanup:members' => "Hide the group members",
+	'group_tools:cleanup:members:explain' => "On the group profile page a list of the group members can be found at the highlighted section. You can choose to hide this list.",
+	'group_tools:cleanup:search' => "Hide the search in group",
+	'group_tools:cleanup:search:explain' => "On the group profile page a search box is available. You can choose to hide this.",
+	'group_tools:cleanup:featured' => "Show featured groups in the sidebar",
+	'group_tools:cleanup:featured:explain' => "You can choose to show a list of featured groups at the highlighted section on the group profile page",
+	'group_tools:cleanup:featured_sorting' => "How to sort featured groups",
 	'group_tools:cleanup:featured_sorting:time_created' => "Newest first",
 	'group_tools:cleanup:featured_sorting:alphabetical' => "Alphabetical",
 	'group_tools:cleanup:my_status' => "Hide the My Status sidebar",
-	'group_tools:cleanup:my_status:explain' => "In the sidebar on the class profile page there is an item which shows you your current membership status and some other status information. You can choose to hide this.",
+	'group_tools:cleanup:my_status:explain' => "In the sidebar on the group profile page there is an item which shows you your current membership status and some other status information. You can choose to hide this.",
 
 	// group default access
-	'group_tools:default_access:title' => "Class default access",
-	'group_tools:default_access:description' => "Here you can control what the default access of new content in your class should be.",
+	'group_tools:default_access:title' => "Group default access",
+	'group_tools:default_access:description' => "Here you can control what the default access of new content in your group should be.",
 
 	// group notification
-	'group_tools:notifications:title' => "Class notifications",
-	'group_tools:notifications:description' => "This class has %s members, of those %s have enabled notifications on activity in this class. Below you can change this for all users of the group.",
-	'group_tools:notifications:disclaimer' => "With large classes this could take a while.",
+	'group_tools:notifications:title' => "Group notifications",
+	'group_tools:notifications:description' => "This group has %s members, of those %s have enabled notifications on activity in this group. Below you can change this for all users of the group.",
+	'group_tools:notifications:disclaimer' => "With large groups this could take a while.",
 	'group_tools:notifications:enable' => "Enable notifications for everyone",
 	'group_tools:notifications:disable' => "Disable notifications for everyone",
 
 	// group profile widgets
-	'group_tools:profile_widgets:title' => "Show class profile widgets to non members",
-	'group_tools:profile_widgets:description' => "This is a closed class. Default no widgets are shown to non members. Here you can configure if you whish to change that.",
-	'group_tools:profile_widgets:option' => "Allow non members to view widgets on the class profile page:",
+	'group_tools:profile_widgets:title' => "Show group profile widgets to non members",
+	'group_tools:profile_widgets:description' => "This is a closed group. Default no widgets are shown to non members. Here you can configure if you whish to change that.",
+	'group_tools:profile_widgets:option' => "Allow non members to view widgets on the group profile page:",
 
 	// group mail
-	'group_tools:mail:message:from' => "From class",
+	'group_tools:mail:message:from' => "From group",
 
-	'group_tools:mail:title' => "Send a mail to the class members",
+	'group_tools:mail:title' => "Send a mail to the group members",
 	'group_tools:mail:form:recipients' => "Number of recipients",
 	'group_tools:mail:form:members:selection' => "Select individual members",
 
@@ -196,29 +196,29 @@ To visit the class page please click on the following link:
 	'group_tools:mail:form:js:description' => "Please enter a message",
 
 	// group invite
-	'group_tools:groups:invite:title' => "Invite users to this class",
+	'group_tools:groups:invite:title' => "Invite users to this group",
 	'group_tools:groups:invite' => "Invite users",
 
-	'group_tools:group:invite:friends:select_all' => "Select all contacts",
-	'group_tools:group:invite:friends:deselect_all' => "Deselect all contacts",
+	'group_tools:group:invite:friends:select_all' => "Select all friends",
+	'group_tools:group:invite:friends:deselect_all' => "Deselect all friends",
 
 	'group_tools:group:invite:users' => "Find user(s)",
 	'group_tools:group:invite:users:description' => "Enter a name or username of a site member and select him/her from the list",
-	'group_tools:group:invite:users:all' => "Invite all site members to this class",
+	'group_tools:group:invite:users:all' => "Invite all site members to this group",
 
 	'group_tools:group:invite:email' => "Using e-mail address",
 	'group_tools:group:invite:email:description' => "Enter a valid e-mail address and select it from the list",
 
 	'group_tools:group:invite:csv' => "Using CSV upload",
-	'group_tools:group:invite:csv:description' => "You can upload a CSV file with students to add to this class.<br />The format must be: displayname;e-mail address. There shouldn't be a header line.",
+	'group_tools:group:invite:csv:description' => "You can upload a CSV file with users to invite.<br />The format must be: displayname;e-mail address. There shouldn't be a header line.",
 
-	'group_tools:group:invite:text' => "If you wish, you can add a welcome message to your students (optional)",
-	'group_tools:group:invite:add:confirm' => "Are you sure you wish to add these students directly?",
+	'group_tools:group:invite:text' => "Personal note (optional)",
+	'group_tools:group:invite:add:confirm' => "Are you sure you wish to add these users directly?",
 
-	'group_tools:group:invite:resend' => "Resend invitations to students who already have been invited",
+	'group_tools:group:invite:resend' => "Resend invitations to users who already have been invited",
 
-	'group_tools:groups:invitation:code:title' => "Student invitation by e-mail",
-	'group_tools:groups:invitation:code:description' => "If you have received an invitation to join a class by e-mail, you can enter the invitation code here to accept the invitation. If you click on the link in the invitation e-mail the code will be entered for you.",
+	'group_tools:groups:invitation:code:title' => "Group invitation by e-mail",
+	'group_tools:groups:invitation:code:description' => "If you have received an invitation to join a group by e-mail, you can enter the invitation code here to accept the invitation. If you click on the link in the invitation e-mail the code will be entered for you.",
 
 	// group membership requests
 	'group_tools:groups:membershipreq:requests' => "Membership requests",
@@ -246,7 +246,7 @@ To visit the class page please click on the following link:
 	
 	// allow group members to invite
 	'group_tools:invite_members:title' => "Group members can invite",
-	'group_tools:invite_members:description' => "Allow the members of this class to invite new members",
+	'group_tools:invite_members:description' => "Allow the members of this group to invite new members",
 
 	// actions
 	'group_tools:action:error:input' => "Invalid input to perform this action",
@@ -257,17 +257,17 @@ To visit the class page please click on the following link:
 	'group_tools:action:success' => "The settings where saved successfully",
 
 	// admin transfer - action
-	'group_tools:action:admin_transfer:error:access' => "You're not allowed to transfer ownership of this class",
+	'group_tools:action:admin_transfer:error:access' => "You're not allowed to transfer ownership of this group",
 	'group_tools:action:admin_transfer:error:self' => "You can't transfer onwership to yourself, you're already the owner",
-	'group_tools:action:admin_transfer:error:save' => "An unknown error occured while saving the class, please try again",
-	'group_tools:action:admin_transfer:success' => "Class ownership was successfully transfered to %s",
+	'group_tools:action:admin_transfer:error:save' => "An unknown error occured while saving the group, please try again",
+	'group_tools:action:admin_transfer:success' => "Group ownership was successfully transfered to %s",
 
 	// group admins - action
-	'group_tools:action:toggle_admin:error:group' => "The given input doesn't result in a class or you can't edit this class or the user is not a member",
-	'group_tools:action:toggle_admin:error:remove' => "An unknown error occured while removing the user as a class admin",
-	'group_tools:action:toggle_admin:error:add' => "An unknown error occured while adding the user as a class admin",
-	'group_tools:action:toggle_admin:success:remove' => "The user was successfully removed as a class admin",
-	'group_tools:action:toggle_admin:success:add' => "The user was successfully added as a class admin",
+	'group_tools:action:toggle_admin:error:group' => "The given input doesn't result in a group or you can't edit this group or the user is not a member",
+	'group_tools:action:toggle_admin:error:remove' => "An unknown error occured while removing the user as a group admin",
+	'group_tools:action:toggle_admin:error:add' => "An unknown error occured while adding the user as a group admin",
+	'group_tools:action:toggle_admin:success:remove' => "The user was successfully removed as a group admin",
+	'group_tools:action:toggle_admin:success:add' => "The user was successfully added as a group admin",
 
 	// group mail - action
 	'group_tools:action:mail:success' => "Message succesfully send",
@@ -281,15 +281,15 @@ To visit the class page please click on the following link:
 	// group - invite - accept e-mail
 	'group_tools:action:groups:email_invitation:error:input' => "Please enter an invitation code",
 	'group_tools:action:groups:email_invitation:error:code' => "The entered invitation code is no longer valid",
-	'group_tools:action:groups:email_invitation:error:join' => "An unknown error occured while joining the class %s, maybe you're already a member",
-	'group_tools:action:groups:email_invitation:success' => "You've successfully joined the class",
+	'group_tools:action:groups:email_invitation:error:join' => "An unknown error occured while joining the group %s, maybe you're already a member",
+	'group_tools:action:groups:email_invitation:success' => "You've successfully joined the group",
 
 	// group - invite - decline e-mail
 	'group_tools:action:groups:decline_email_invitation:error:delete' => "An error occured while deleting the invitation",
 
 	// suggested groups
-	'group_tools:suggested_groups:info' => "The following classes might be interesting for you. Click the join buttons to join them immediately or click the title to view more information about the class.",
-	'group_tools:suggested_groups:none' => "We can't suggest a class for you. This can happen if we have to little information about you, or that you are already a member of the classes we like you to join. Use the search to find more classes.",
+	'group_tools:suggested_groups:info' => "The following groups might be interesting for you. Click the join buttons to join them immediately or click the title to view more information about the group.",
+	'group_tools:suggested_groups:none' => "We can't suggest a group for you. This can happen if we have to little information about you, or that you are already a member of the groups we like you to join. Use the search to find more groups.",
 		
 	// group toggle auto join
 	'group_tools:action:toggle_special_state:error:auto_join' => "An error occured while saving the new auto join settings",
@@ -299,13 +299,13 @@ To visit the class page please click on the following link:
 	'group_tools:action:toggle_special_state:suggested' => "The new suggested settings were saved successfully",
 	
 	// group fix auto_join
-	'group_tools:action:fix_auto_join:success' => "Class membership fixed: %s new members, %s were already a member and %s failures",
+	'group_tools:action:fix_auto_join:success' => "Group membership fixed: %s new members, %s were already a member and %s failures",
 
 	// group cleanup
 	'group_tools:actions:cleanup:success' => "The cleanup settings were saved successfully",
 
 	// group default access
-	'group_tools:actions:default_access:success' => "The default access for the class was saved successfully",
+	'group_tools:actions:default_access:success' => "The default access for the group was saved successfully",
 
 	// group notifications
 	'group_tools:action:notifications:error:toggle' => "Invalid toggle option",
@@ -314,13 +314,13 @@ To visit the class page please click on the following link:
 
 	// fix group problems
 	'group_tools:action:fix_acl:error:input' => "Invalid option you can't fix: %s",
-	'group_tools:action:fix_acl:error:missing:nothing' => "No missing users found in the class ACLs",
-	'group_tools:action:fix_acl:error:excess:nothing' => "No excess users found in the classes ACLs",
-	'group_tools:action:fix_acl:error:without:nothing' => "No classes found without an ACL",
+	'group_tools:action:fix_acl:error:missing:nothing' => "No missing users found in the group ACLs",
+	'group_tools:action:fix_acl:error:excess:nothing' => "No excess users found in the groups ACLs",
+	'group_tools:action:fix_acl:error:without:nothing' => "No groups found without an ACL",
 
-	'group_tools:action:fix_acl:success:missing' => "Successfully added %d users to class ACLs",
-	'group_tools:action:fix_acl:success:excess' => "Successfully removed %d users from class ACLs",
-	'group_tools:action:fix_acl:success:without' => "Successfully created %d class ACLs",
+	'group_tools:action:fix_acl:success:missing' => "Successfully added %d users to group ACLs",
+	'group_tools:action:fix_acl:success:excess' => "Successfully removed %d users from group ACLs",
+	'group_tools:action:fix_acl:success:without' => "Successfully created %d group ACLs",
 
 	// discussion toggle status
 	'group_tools:action:discussion:toggle_status:success:open' => "The topic was successfully reopened",
@@ -328,16 +328,16 @@ To visit the class page please click on the following link:
 		
 	// Widgets
 	// Group River Widget
-	'widgets:group_river_widget:title' => "Class Timeline",
-    'widgets:group_river_widget:description' => "Shows the timeline of a class in a widget",
+	'widgets:group_river_widget:title' => "Group activity",
+    'widgets:group_river_widget:description' => "Shows the activity of a group in a widget",
 
     'widgets:group_river_widget:edit:num_display' => "Number of activities",
-	'widgets:group_river_widget:edit:group' => "Select a class",
-	'widgets:group_river_widget:edit:no_groups' => "You need to be a member of at least one class to use this widget",
+	'widgets:group_river_widget:edit:group' => "Select a group",
+	'widgets:group_river_widget:edit:no_groups' => "You need to be a member of at least one group to use this widget",
 
 	'widgets:group_river_widget:view:not_configured' => "This widget is not yet configured",
 
-	'widgets:group_river_widget:view:more' => "Activity in the '%s' class",
+	'widgets:group_river_widget:view:more' => "Activity in the '%s' group",
 	'widgets:group_river_widget:view:noactivity' => "We could not find any activity.",
 
 	// Group Members
