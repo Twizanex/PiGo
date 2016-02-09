@@ -1,8 +1,8 @@
 <?php
 /**
  * Elgg groups plugin spanish language pack
- * Formal spanish version by LeonardoA
- * @package ElggGroups
+ * Formal spanish version by UDP SW Social Web
+ * @package PiGoCourse
  */
 
 $spanish = array(
