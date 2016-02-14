@@ -5,7 +5,7 @@
 		// admin menu items
 		'admin:advanced_statistics' => 'Advanced Statistics',
 		'admin:advanced_statistics:users' => 'Users',
-		'admin:advanced_statistics:groups' => 'Groups',
+		'admin:advanced_statistics:groups' => 'Courses',
 		'admin:advanced_statistics:content' => 'Content',
 		'admin:advanced_statistics:activity' => 'Activity',
 		'admin:advanced_statistics:widgets' => 'Widgets',
@@ -42,13 +42,13 @@
 
 		// system
 		'advanced_statistics:system:files:users' => 'Users with the most files and photos',
-		'advanced_statistics:system:files:groups' => 'Groups with the most files and photos',
+		'advanced_statistics:system:files:groups' => 'Courses with the most files and photos',
 
 		// groups
-		'advanced_statistics:groups:popular' => "Popular groups",
-		'advanced_statistics:groups:popular_tools' => "Popular group tools",
-		'advanced_statistics:groups:most_active' => "Most active groups (last week)",
-		'advanced_statistics:groups:least_active' => "Least active groups",
+		'advanced_statistics:groups:popular' => "Popular courses",
+		'advanced_statistics:groups:popular_tools' => "Popular course tools",
+		'advanced_statistics:groups:most_active' => "Most active courses (last week)",
+		'advanced_statistics:groups:least_active' => "Least active courses",
 		'advanced_statistics:groups:dead_vs_alive' => "Dead vs. Alive",
 		'advanced_statistics:groups:dead_vs_alive:last_month' => "< 1 month [%d]",
 		'advanced_statistics:groups:dead_vs_alive:3_months' => "< 3 months [%d]",
