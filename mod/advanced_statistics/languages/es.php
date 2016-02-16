@@ -46,24 +46,24 @@
 
 		// groups
 		'advanced_statistics:groups:popular' => "Clases Populares",
-		'advanced_statistics:groups:popular_tools' => "Popular group tools",
-		'advanced_statistics:groups:most_active' => "Most active groups (last week)",
-		'advanced_statistics:groups:least_active' => "Least active groups",
+		'advanced_statistics:groups:popular_tools' => "Herramientas populares de la clase",
+		'advanced_statistics:groups:most_active' => "Clases con mayor actividad",
+		'advanced_statistics:groups:least_active' => "Clases con menor actividad",
 		'advanced_statistics:groups:dead_vs_alive' => "Dead vs. Alive",
-		'advanced_statistics:groups:dead_vs_alive:last_month' => "< 1 month [%d]",
-		'advanced_statistics:groups:dead_vs_alive:3_months' => "< 3 months [%d]",
-		'advanced_statistics:groups:dead_vs_alive:6_months' => "< 6 months [%d]",
-		'advanced_statistics:groups:dead_vs_alive:year' => "< 1 year [%d]",
-		'advanced_statistics:groups:dead_vs_alive:more_year' => "> 1 year [%d]",
+		'advanced_statistics:groups:dead_vs_alive:last_month' => "< 1 mes [%d]",
+		'advanced_statistics:groups:dead_vs_alive:3_months' => "< 3 meses [%d]",
+		'advanced_statistics:groups:dead_vs_alive:6_months' => "< 6 meses [%d]",
+		'advanced_statistics:groups:dead_vs_alive:year' => "< 1 año [%d]",
+		'advanced_statistics:groups:dead_vs_alive:more_year' => "> 1 año [%d]",
 
 		// widgets
-		'advanced_statistics:widgets:advanced_statistics:title' => "Advanced Statistics",
-		'advanced_statistics:widgets:advanced_statistics:description' => "Show some advanced statistics",
-		'advanced_statistics:widgets:advanced_statistics:content:no_chart' => "Edit the widget to select a chart.",
+		'advanced_statistics:widgets:advanced_statistics:title' => "Estadisticas Avanzadas",
+		'advanced_statistics:widgets:advanced_statistics:description' => "Mostrar algunas estadisticas avanzadas",
+		'advanced_statistics:widgets:advanced_statistics:content:no_chart' => "Editar el widget para seleccionar un grafico.",
 		'advanced_statistics:widgets:advanced_statistics:content:no_jqplot' => "Please refresh the page to make this widget work.",
 		
-		'advanced_statistics:widgets:online_user_count:title' => "Online Users Counter",
-		'advanced_statistics:widgets:online_user_count:description' => "Show the amount of online users and will automatically refresh",
+		'advanced_statistics:widgets:online_user_count:title' => "Contador de usuarios en linea",
+		'advanced_statistics:widgets:online_user_count:description' => "Mostrar la cantidad de usuarios en linea ahora",
 			
 	);
 
