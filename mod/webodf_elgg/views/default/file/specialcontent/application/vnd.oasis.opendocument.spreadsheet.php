@@ -1,14 +1,3 @@
- <head>
-
-
-
-
- <link rel="stylesheet" type="text/css" href="<?php echo elgg_get_site_url(); ?>mod/webodf_elgg/vendors/webodf/demo-viewer.css" media="screen"/>
-        <script src="<?php echo elgg_get_site_url(); ?>mod/webodf_elgg/vendors/webodf/webodf.js" type="text/javascript" charset="utf-8"></script>
-        <script src="<?php echo elgg_get_site_url(); ?>mod/webodf_elgg/vendors/webodf/demo-viewer.js" type="text/javascript" charset="utf-8"></script>
-
-
- </head>
 
 <?php
 /**

@@ -21,7 +21,7 @@ $power_setting = $vars['entity']->power;
 
 
 <p>
-  <b>Do you want to embed ODT files?</b>
+  <b>Do you want to embed ODF Text Documents?</b>
 
 <?php
 
@@ -34,7 +34,7 @@ echo elgg_view('input/dropdown',array(
 </p>
 
 <p>
-  <b>Do you want to embed ODP files?</b>
+  <b>Do you want to embed PDF Documents and ODF Presentations?</b>
 
 <?php
 
