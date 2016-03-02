@@ -1,6 +1,7 @@
 <?php
 
 $group = elgg_get_page_owner_entity();
+$owner = $group->getOwnerEntity();
 ?>
 <html lang="en">
     <head>
@@ -38,7 +39,7 @@ $group = elgg_get_page_owner_entity();
                     </li>
 		    
 		      <li>
-                        <a href="<?php echo elgg_get_site_url(); ?>discussion/add/<?php echo $group->guid; ?>">
+                       <a href="<?php echo elgg_get_site_url(); ?>discussion/add/<?php echo $group->guid; ?>">
                             <span class="ca-icon">F</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Crear una</h2>
