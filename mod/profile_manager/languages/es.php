@@ -10,7 +10,7 @@
 	* @link http://www.coldtrick.com/
 	*/
 
-	$english = array(
+	$spanish = array(
 	
 		// Generic action words 
 		'add' => "Add",
@@ -365,5 +365,5 @@
 
 	);
 	
-	add_translation("en", $english);
+	add_translation("en", $spanish);
 	
