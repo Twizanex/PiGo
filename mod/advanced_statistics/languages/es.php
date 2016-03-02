@@ -64,6 +64,7 @@
 		
 		'advanced_statistics:widgets:online_user_count:title' => "Contador de usuarios en linea",
 		'advanced_statistics:widgets:online_user_count:description' => "Mostrar la cantidad de usuarios en linea ahora",
+
 			
 	);
 
